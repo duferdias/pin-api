@@ -29,6 +29,10 @@ app.get('/get-pin', async (req, res) => {
     }
 });
 
+app.get('/health', (req, res) => {
+    res.status(200).send("OK");
+});
+
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
