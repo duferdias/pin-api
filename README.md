@@ -1,2 +1,2 @@
 # pin-api
-Recurso para repositório privado
+Automatização de tarefas
